@@ -12,13 +12,15 @@ export default function NavBar () {
     let burgerClassName = styles.burger;
     if(navActive) {
         navClassName += ` ${styles.navActive}`;
-        burgerClassName += ` toggle`
+        burgerClassName += ` ${styles.toggle}`
     }
 
     return (
         <nav className={styles.navbar}>
-            <div className={styles.logo}>
-                <h2>Alex</h2>
+            <div className={burgerClassName} onClick={handleClick}>
+                <div className={styles.line}></div>
+                <div className={styles.line}></div>
+                <div className={styles.line}></div>
             </div>
             <ul className={navClassName}>
                 <li><a href='#'>Home</a></li>
@@ -26,11 +28,6 @@ export default function NavBar () {
                 <li><a href='#'>Work</a></li>
                 <li><a href='#'>Projects</a></li>
             </ul>
-            <div className={burgerClassName} onClick={handleClick}>
-                <div className={styles.line1}></div>
-                <div className={styles.line2}></div>
-                <div className={styles.line3}></div>
-            </div>
         </nav>
     );
 }
