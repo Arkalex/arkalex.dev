@@ -1,4 +1,5 @@
-import ReactDOM, { useState } from 'react';
+import { useState } from 'react';
+import Link from 'next/link';
 import styles from './style.module.css';
 
 export default function NavBar () {
@@ -23,10 +24,12 @@ export default function NavBar () {
                 <div className={styles.line}></div>
             </div>
             <ul className={navClassName}>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Work</a></li>
-                <li><a href='#'>Projects</a></li>
+                <li>
+                    <Link href='/'><a>About</a></Link>
+                </li>
+                <li><Link href='/work'><a>Work</a></Link></li>
+                <li><Link href='/projects'><a>Projects</a></Link></li>
+                <li><Link href='/contact'><a>Contact</a></Link></li>
             </ul>
         </nav>
     );

@@ -1,10 +1,10 @@
 import Layout from 'components/Layout'
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Layout
-        currentPage={''}
+        currentPage={'📧 Contact me'}
         children={''}
       />
     </>

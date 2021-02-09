@@ -1,10 +1,10 @@
 import Layout from 'components/Layout'
 
-export default function Home() {
+export default function Work() {
   return (
     <>
       <Layout
-        currentPage={''}
+        currentPage={'💼 Work'}
         children={''}
       />
     </>
