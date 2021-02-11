@@ -1,3 +1,4 @@
+import Bio from 'components/Bio'
 import Layout from 'components/Layout'
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
     <>
       <Layout
         currentPage={''}
-        children={''}
+        children={<Bio />}
       />
     </>
   )
