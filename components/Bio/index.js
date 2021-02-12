@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './style.module.css'
 
 export default function Bio() {
@@ -15,15 +16,16 @@ export default function Bio() {
           </p>
         </div>
         <span className={styles.download}>
-          <a className={styles.pdf} href='https://drive.google.com/file/d/1hcW8msoMLi1DV3RInpwbvms02ecVth8y/view?usp=sharing' target='_blank'>Take a look at my CV!</a>
-          <img src='/pdf.png' /> 
+          <a className={styles.pdf} href='https://drive.google.com/file/d/1hcW8msoMLi1DV3RInpwbvms02ecVth8y/view?usp=sharing' rel='noopener' target='_blank'>Take a look at my CV!</a>
+          <img src='/pdf.webp' alt='pdf icon' />
         </span>
       </div>
-      <div>
-        <img
-          className={styles.photo}
-          alt='Picture of me'
-          src='/me.jpg'
+      <div className={styles.photo}>
+        <Image
+          src="/me.webp"
+          alt="Picture of me"
+          width={500}
+          height={500}
         />
       </div>
     </div>

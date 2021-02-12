@@ -9,7 +9,7 @@ export default function Header({currentPage}) {
     <>
       <Head>
         <title>{partialTitle}Alex Ayllon | Frontend Developer</title>
-        <link rel="icon" href="/me.jpg" />
+        <link rel="icon" href="/me.webp" />
       </Head>
       <NavBar />
     </>
