@@ -23,26 +23,32 @@
     word-spacing: 1px;
 }
 .desc {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     text-justify: inter-word;
 }
 .growing {
     white-space: pre-line;
 }
-.photo {
+.bio .photo  {
     width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     border: 6px solid #4686a6;
     animation: appear 2s;
     -webkit-animation: appear 2s;
 }
 
+.bio .photo img {
+    border-radius: 50%;
+}
+
 .download {
     display: flex;
     align-items: center;
     width: fit-content;
-    font-size: 16px;
+    font-size: 18px;
+    font-style: italic;
 }
 
 .download img {
