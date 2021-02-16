@@ -48,7 +48,7 @@
     }
 
     .burger {
-        position: absolute;
+        position: fixed;
         cursor: pointer;
         right: 5%;
         top: 5%;

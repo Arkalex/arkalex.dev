@@ -1,0 +1,14 @@
+.title {
+    font-size: 40px;
+}
+.title > span {
+    -webkit-animation-name: wave-animation;
+    animation-name: wave-animation;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+    z-index: 2;
+}
