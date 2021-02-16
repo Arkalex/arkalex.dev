@@ -18,4 +18,11 @@ a {
   box-sizing: border-box;
 }
 
+section{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 80%;
+}
+
 /* F8B195   F67280   C06C84   6C5B7B   355C7D  */

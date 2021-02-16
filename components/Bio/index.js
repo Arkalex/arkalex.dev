@@ -3,7 +3,7 @@ import styles from './style.module.css'
 
 export default function Bio() {
   return (
-    <div className={styles.bio}>
+    <section className={styles.bio}>
       <div className={styles.presentation}>
         <h2 className={styles.title}>Hi there! <span>👋</span></h2>
         <div className={styles.desc}>
@@ -28,6 +28,6 @@ export default function Bio() {
           height={500}
         />
       </div>
-    </div>
+    </section>
   )
 }
