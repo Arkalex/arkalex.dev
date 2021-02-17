@@ -13,7 +13,7 @@
     z-index: 2;
 }
 .presentation {
-    width: 40%;
+    width: 65%;
     word-spacing: 1px;
 }
 .desc {
@@ -49,7 +49,11 @@
     margin-left: 10px;
     width: 30px;
 }
-
+@media screen and (max-width: 1024px) {
+    .presentation{
+        width: 55%;
+    }
+}
 @media screen and (max-width: 768px) {
     .bio{
         flex-direction: column-reverse;

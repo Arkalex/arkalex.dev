@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './style.module.css';
 
@@ -6,6 +6,11 @@ export default function NavBar () {
     const [navActive, setNavActive] = useState(false);
 
     const handleClick = () => {
+        setNavActive(!navActive);
+    }
+    const scrollTop = () => {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
         setNavActive(!navActive);
     }
 
@@ -25,11 +30,11 @@ export default function NavBar () {
             </div>
             <ul className={navClassName}>
                 <li>
-                    <Link href='/'><a>About</a></Link>
+                    <a onClick={scrollTop} href='#'>About</a>
                 </li>
-                <li><Link href='/work'><a>Work</a></Link></li>
-                <li><Link href='/projects'><a>Projects</a></Link></li>
-                <li><Link href='/contact'><a>Contact</a></Link></li>
+                <li><a onClick={handleClick} href='#work'>Work</a></li>
+                <li><a onClick={handleClick} href='#projects'>Projects</a></li>
+                <li><a onClick={handleClick} href='#contact'>Contact</a></li>
             </ul>
         </nav>
     );

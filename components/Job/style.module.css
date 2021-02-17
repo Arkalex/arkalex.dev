@@ -12,3 +12,15 @@
     display: inline-block;
     z-index: 2;
 }
+
+.column {
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
