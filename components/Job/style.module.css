@@ -1,5 +1,6 @@
 .title {
     font-size: 40px;
+    margin-left: 22px;
 }
 .title > span {
     -webkit-animation-name: wave-animation;
@@ -11,4 +12,8 @@
     transform-origin: 70% 70%;
     display: inline-block;
     z-index: 2;
+}
+
+.column {
+    flex-direction: column;
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
@@ -22,7 +26,7 @@ section{
   display: flex;
   justify-content: space-evenly;
   align-content: center;
-  height: 80%;
+  padding-bottom: 5rem;
 }
 
 /* F8B195   F67280   C06C84   6C5B7B   355C7D  */

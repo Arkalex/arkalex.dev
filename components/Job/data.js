@@ -2,26 +2,26 @@ export const Data = [
     {
         title: "Oct, 2020 - Current", //Date
         cardTitle: "Senior Front-End Developer @ Le Creuset",
-        cardSubtitle: "I’m developing the entire private product management site from scratch, updating it look and feel and it tech."
+        cardSubtitle: "I’m helping Le Creuset to update their entire site for product management from scratch, updating their old look and feel and it tech. (React, Typescript, Sass, Git, Auth0)"
     },
     {
         title: "Dec, 2016 - Oct, 2020", //Date
         cardTitle: "Full-Stack Developer @ Pasiona Consulting",
-        cardSubtitle: "Pasiona is a business consultant specialized in Microsoft technologies (Web, Mobile, UX/UI Design, Accessibility, Cloud, Innovation, AI and Agile). While i was here, i have working with many companies to bring them the solution they wanted:"
+        cardSubtitle: "During my time at Pasiona Consulting, I helped a lot of clients to build the solution they were looking for. Educo: this NGO needed a documental gallery to save and categorize all the images that they had from over the world. (React, .NET, Microsoft Cognitives Services Faces API).         DMG Mori: we achieved to develop a management site to allow them to control all the selling process of their machine tools, from building process to the customer delivery. (React, .NET, Sharepoint Online) Ferrovial: as one of the biggest companies in Spain they had tons of documents stored locally, and we achieved to build a solution to manage all their documents online. (React, .NET, Sharepoint Online) GoTalent: I achieved their requirements building their website usable for totally blind people, getting to achieve AA level accessibility requirements according to WCAG. (HTML, CSS and Javascript Vanilla) Catalana Occidente: I helped updating their entire intranet. (HTML, CSS, Javascript, .NET, MySQL)"
     },
     {
         title: "Aug, 2015 - Nov, 2016", //Date
         cardTitle: "Full-Stack Developer @ Inbenta",
-        cardSubtitle: "Inbenta is a company specialized in Natural Language Processing and semantic search to improve customer’s experience online through AI-powered technology. I was implementing Inbenta’s product into the customer’s site using HTML, CSS, Javascript and PHP."
+        cardSubtitle: "I helped our customers to implement Inbenta’s product, based on Natural Language Processing and semantic search) into their websites. (HTML, CSS, Javascript, PHP)"
     },
     {
         title: "Nov, 2014 - Jul, 2015", //Date
         cardTitle: "Full-Stack Developer @ Tviso",
-        cardSubtitle: "Tviso is a spanish version of IMDB, i was helping building it from the company’s previous web (series.ly, that was and site where you could get access to watch movies and series in third party sites such as megavideo or other “illegal” platforms). I used HTML, CSS, Javascript and PHP."
+        cardSubtitle: "Their last project (series.ly) was one or the biggest websites in its time, and I helped them building their new plattform (a spanish version of IMDB) (HTML, CSS, Javascript, PHP)"
     },
     {
         title: "Jan, 2014 - Oct, 2014", //Date
         cardTitle: "Back-End Developer @ The Mamasu Agency",
-        cardSubtitle: "I developed an API for a mobile application which contains features where you could win prizes playing games. Developed using PHP."
+        cardSubtitle: "They wanted to build a mobile app with games and prizes, and I helped them with the backend part. (PHP, MySQL)"
     },
 ]
