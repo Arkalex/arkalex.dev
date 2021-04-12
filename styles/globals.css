@@ -47,6 +47,11 @@ section{
   padding-bottom: 5rem;
 }
 
+section:nth-child(even) {
+  clip-path: polygon(0% 14%, 100% 0px, 100% 84%, 0px 100%);
+  background-color: brown;
+}
+
 section section {
   padding-bottom: 0;
 }

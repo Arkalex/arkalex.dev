@@ -8,6 +8,9 @@ export default function NavBar () {
     const handleClick = () => {
         setNavActive(!navActive);
     }
+    const handleClickLink = () => {
+        setNavActive(!navActive);
+    }
     const scrollTop = () => {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
@@ -32,9 +35,9 @@ export default function NavBar () {
                 <li>
                     <a onClick={scrollTop} href='#'>About</a>
                 </li>
-                <li><a onClick={handleClick} href='#work'>Work</a></li>
-                <li><a onClick={handleClick} href='#projects'>Projects</a></li>
-                <li><a onClick={handleClick} href='#contact'>Contact</a></li>
+                <li><a onClick={handleClickLink} href='#work'>Work</a></li>
+                <li><a onClick={handleClickLink} href='https://blog.arkalex.dev'>Blog</a></li>
+                <li><a onClick={handleClickLink} href='#contact'>Contact</a></li>
             </ul>
         </nav>
     );

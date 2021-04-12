@@ -16,7 +16,7 @@ export default function Bio() {
           </p>
         </div>
         <span className={styles.download}>
-          <a className={styles.pdf} href='https://drive.google.com/file/d/1hcW8msoMLi1DV3RInpwbvms02ecVth8y/view?usp=sharing' rel='noopener' target='_blank'>Take a look at my CV!</a>
+          <a className={styles.pdf} href='https://drive.google.com/file/d/1DHw1vkNvYazjjWqTkTe0Fh7SH2I4tsYR/view?usp=sharing' rel='noopener' target='_blank'>Take a look at my CV!</a>
           <img src='/pdf.webp' alt='pdf icon' />
         </span>
       </div>
